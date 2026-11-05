@@ -1,0 +1,16 @@
+{
+  "name": "crawl-like-googlebot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "description": "Walks your own site the way Googlebot does and reports what it could and could not see.",
+  "engines": { "node": ">=18" },
+  "scripts": { "crawl": "node crawl.mjs", "test": "node test/test.mjs" },
+  "dependencies": {
+    "cheerio": "1.0.0",
+    "crawlee": "3.18.2",
+    "playwright": "1.64.1",
+    "robots-parser": "3.0.1"
+  }
+}
