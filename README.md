@@ -4,7 +4,7 @@
 
 Reading your sitemap and your code tells you what you meant to publish. This shows what a crawler gets: it follows only real `<a href>` links, reads every page as the server sent it and again after JavaScript ran, and writes a plain report.
 
-It was built after two months of failing to get [worklore.dev](https://worklore.dev) into Google search. The sitemap and the code looked fine. The first crawl found a home page sending most of its links to noindex pages, a listing page losing every story link once JavaScript ran, and pages that emptied themselves while loading.
+It was built after two months of failing to get [worklore.dev](https://worklore.dev) into Google search ([the full story](https://worklore.dev/s/2026-11-05-walking-my-site-like-googlebot-what-two-months-of-reading-th)). The sitemap and the code looked fine. The first crawl found a home page sending most of its links to noindex pages, a listing page losing every story link once JavaScript ran, and pages that emptied themselves while loading.
 
 ## Quick start
 
